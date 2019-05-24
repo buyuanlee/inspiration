@@ -40,15 +40,17 @@ main {
 
 .store {
     margin: 28px 0;
+    box-shadow: 0 2px 4px 2px rgba(221, 221, 221, 0.50);
+    border-radius: 7px 7px 8px 8px;
 }
 
 .swiper-container {
 }
-.swiper-slide{
+
+.swiper-slide {
 }
 
 .store-info {
-    border: 1px solid green;
     padding: 20px;
     position: relative;
 }
@@ -68,7 +70,7 @@ main {
 
 .store-avatar {
     position: absolute;
-    top: -20px;
+    top: -40px;
     right: 0;
     width: 108px;
     height: 108px;
@@ -82,12 +84,86 @@ main {
     height: 32px;
     position: absolute;
     right: 6px;
-    bottom: 15px;
+    top: 58px;
     z-index: 1;
-    background: #F25F5C;
     border-radius: 18px;
     color: #fff;
     text-align: center;
     font-size: 20px;
     line-height: 28px;
+}
+
+.popular {
+    background: #F25F5C;
+}
+
+.certification {
+    background-color: #287BA0;
+}
+
+.store-appraise {
+}
+
+.score-comments {
+    display: inline;
+    font-size: 20px;
+    line-height: 28px;
+    color: #666666;
+}
+
+.user-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.user-comment {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 12px 0;
+    border-bottom: 1px solid #ECECEC;
+}
+
+.comment-content {
+    font-size: 24px;
+    color: #1D1D1D;
+    letter-spacing: -0px;
+    line-height: 33px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-left: 10px;
+}
+
+.price-discount {
+    margin-top: 16px;
+    color: #1D1D1D;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.price {
+    font-size: 28px;
+    letter-spacing: -0px;
+    line-height: 40px;
+}
+
+.discount {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+}
+
+.discount-logo {
+    width: 30px;
+    height: 30px;
+    background-color: #333333;
+    font-size: 20px;
+    line-height: 28px;
+    color: #FFFFFF;
+    border-radius: 4px;
+    text-align: center;
+    margin-right: 8px;
 }
