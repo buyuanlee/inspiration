@@ -275,7 +275,6 @@
     border-radius: 100%;
     background: #fff;
     opacity: .5;
-    transform: scale(1.5);
 }
 
 button.swiper-pagination-bullet {
@@ -296,7 +295,7 @@ button.swiper-pagination-bullet {
 .swiper-pagination-bullet-active {
     opacity: 1;
     background: #fff;
-    transform: scale(2);
+    transform: scale(1.2);
 }
 
 .swiper-container-vertical > .swiper-pagination-bullets {
